@@ -1,0 +1,18 @@
+.green-background {
+  background-color: lightgreen;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.doggy {
+  display: none;
+}
+
+
+img {
+  width: 25%;
+  height: auto;
+}
+
