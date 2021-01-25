@@ -2,7 +2,9 @@ $(document).ready(function() {
   $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello!</li>");
     $("ul#webpage").prepend("<li>Why hello there!");
-    $("li").css("background-color", "green");
+    $("li").click(function() {
+      alert("hi");
+    });
   });
 
   $("button#goodbye").click(function() {
